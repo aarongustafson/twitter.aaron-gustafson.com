@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>AaronGustafson’s Twitter Archive—№ 18,993</title>
-		<meta name="description" content="A read-only indieweb self-hosted archive of all 24569 of AaronGustafson’s tweets." />
+		<meta name="description" content="@eleven_ty @jekyllrb Just figured it out: Nunjucks was the source of the encoding. Needed to add the "safe" filter to the output." />
 		<script>
 		if("classList" in document.documentElement) {
 			document.documentElement.classList.add("has-js");
@@ -17,13 +17,7 @@
 		<script src="/assets/script.js" type="module"></script>
 		<script src="/assets/is-land.js" type="module"></script>
 
-    
-
-		<link rel="shortcut icon" href="/favicon.ico">
-		<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
-		<link rel="icon" sizes="192x192" href="/img/favicon-192.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon-180-precomposed.png">
-
+		
 	</head>
 	<body>
 		<header>
@@ -36,13 +30,13 @@
 		</ul>
 		</header>
 		<main>
-			<ol class="tweets tweets-thread h-feed hfeed">
-			<ol class="tweets-replies h-feed hfeed"><ol class="tweets-replies"><li id="1155668463475732481" class="tweet h-entry tweet-previous">
+			<ol class="tweets tweets-thread h-feed hfeed" data-pagefind-body>
+			<ol class="tweets-replies h-feed hfeed"><ol class="tweets-replies"><li id="1155668463475732481" class="tweet h-entry tweet-previous" data-pagefind-index-attrs="id">
 		
 			<div class="tweet-text e-content">I think I’m missing something: my <a href="https://twitter.11ty.dev/" class="tweet-username h-card"><b class="p-nickname">eleven_ty</b></a> filter (which aims to be a port of <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card"><b class="p-nickname">jekyllrb</b></a>’s markdownify filter) is returning markup that is text (with encoded &lt; and &gt;) rather than actual HTML. Thoughts?</div>
 			<span class="tweet-metadata">
-				<a href="/1155668463475732481/" class="tag tag-naked" rel="bookmark">Permalink</a>
-				<a href="https://twitter.com/AaronGustafson/status/1155668463475732481" class="tag tag-icon u-url"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				<a href="/1155668463475732481/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/AaronGustafson/status/1155668463475732481" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
 				
 				<a href="/" class="tag tag-naked tag-lite tag-avatar author p-author h-card"><b hidden class="p-nickname">AaronGustafson</b><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.aaron-gustafson.com%2F/" width="52" height="52" alt="AaronGustafson’s avatar" class="tweet-avatar"></a>
 				<span class="tag tag-lite tag-retweet">♻️ 2<span class="sr-only"> Retweets</span></span>
@@ -50,12 +44,12 @@
 				<time class="tag tag-naked tag-lite dt-published" datetime="2019-07-29T02:36:47.000Z">2019 Jul 28</time>
 				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">-2</strong> 🙁</span>
 			</span>
-		</li></ol><li id="1155668950707068928" class="tweet h-entry tweet-previous">
+		</li></ol><li id="1155668950707068928" class="tweet h-entry tweet-previous" data-pagefind-index-attrs="id">
 		<a href="/1155668463475732481/" class="tweet-pretext u-in-reply-to">…in reply to @AaronGustafson</a>
 			<div class="tweet-text e-content"><a href="https://twitter.11ty.dev/" class="tweet-username h-card"><b class="p-nickname">eleven_ty</b></a> <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card"><b class="p-nickname">jekyllrb</b></a> I’ve tried returning the result of both markdownit’s render() and renderInline() methods as well as returning that inside of a backtick-ed string (e.g., <code>${html}</code>). I’ve ruled out collisions with other filters. What am I missing?</div>
 			<span class="tweet-metadata">
-				<a href="/1155668950707068928/" class="tag tag-naked" rel="bookmark">Permalink</a>
-				<a href="https://twitter.com/AaronGustafson/status/1155668950707068928" class="tag tag-icon u-url"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				<a href="/1155668950707068928/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/AaronGustafson/status/1155668950707068928" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
 				
 				<a href="/" class="tag tag-naked tag-lite tag-avatar author p-author h-card"><b hidden class="p-nickname">AaronGustafson</b><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.aaron-gustafson.com%2F/" width="52" height="52" alt="AaronGustafson’s avatar" class="tweet-avatar"></a>
 				
@@ -63,12 +57,12 @@
 				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">-4</strong> 🙁</span>
 			</span>
 		</li></ol>
-			<li id="1155670725119922178" class="tweet h-entry">
+			<li id="1155670725119922178" class="tweet h-entry" data-pagefind-index-attrs="id">
 		<a href="/1155668950707068928/" class="tweet-pretext u-in-reply-to">…in reply to @AaronGustafson</a>
 			<div class="tweet-text e-content"><a href="https://twitter.11ty.dev/" class="tweet-username h-card"><b class="p-nickname">eleven_ty</b></a> <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card"><b class="p-nickname">jekyllrb</b></a> Just figured it out: Nunjucks was the source of the encoding. Needed to add the "safe" filter to the output.</div>
 			<span class="tweet-metadata">
 				
-				<a href="https://twitter.com/AaronGustafson/status/1155670725119922178" class="tag tag-icon u-url"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
+				<a href="https://twitter.com/AaronGustafson/status/1155670725119922178" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
 				
 				<a href="/" class="tag tag-naked tag-lite tag-avatar author p-author h-card"><b hidden class="p-nickname">AaronGustafson</b><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.aaron-gustafson.com%2F/" width="52" height="52" alt="AaronGustafson’s avatar" class="tweet-avatar"></a>
 				<span class="tag tag-lite tag-retweet">♻️ 1<span class="sr-only"> Retweets</span></span>
