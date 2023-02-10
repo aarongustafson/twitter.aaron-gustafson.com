@@ -22,4 +22,4 @@ cd /Users/aarongu/Documents/GitHub/twitter.aaron-gustafson.com/ &&
 cd ./_site &&
 /usr/local/bin/git add . &&
 /usr/local/bin/git commit -am "Built on ${currentDate}" &&
-/usr/local/bin/git push origin main
+/usr/local/bin/git push origin gh-pages
