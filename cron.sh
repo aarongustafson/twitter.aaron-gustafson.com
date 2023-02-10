@@ -3,9 +3,12 @@
 # Loading this app into a Secure location:
 # sudo mkdir "/Library/Application Support/com.aaron-gustafson.twitter/" 
 # sudo cp -R "cron.sh" "/Library/Application Support/com.aaron-gustafson.twitter/"
+# sudo chown root:wheel /Library/Application\ Support/com.aaron-gustafson.twitter/cron.sh
+# sudo chmod +x /Library/Application\ Support/com.aaron-gustafson.twitter/cron.sh
 
 # Copying over the plist
 # sudo cp com.aaron-gustafson.twitter.plist /Library/LaunchDaemons 
+# sudo chmod 644 /Library/LaunchDaemons/com.aaron-gustafson.twitter.plist
 # sudo launchctl load /Library/LaunchDaemons/com.aaron-gustafson.twitter.plist 
 # sudo launchctl start com.aaron-gustafson.twitter
 
