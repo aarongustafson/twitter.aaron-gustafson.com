@@ -1,6 +1,16 @@
 #!/bin/bash
 
+# Loading this app into a Secure location:
+# sudo mkdir "/Library/Application Support/com.aaron-gustafson.twitter/" 
+# sudo cp -R "cron.sh" "/Library/Application Support/com.aaron-gustafson.twitter/"
+
+# Copying over the plist
+# sudo cp com.aaron-gustafson.twitter.plist /Library/LaunchDaemons 
+# sudo launchctl load /Library/LaunchDaemons/com.aaron-gustafson.twitter.plist 
+# sudo launchctl start com.aaron-gustafson.twitter
+
 currentDate=`date`
+echo "${PATH}"
 echo "Building at ${currentDate}"
 
 # build latest
