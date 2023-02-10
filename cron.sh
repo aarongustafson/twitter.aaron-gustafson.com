@@ -10,7 +10,6 @@
 # sudo launchctl start com.aaron-gustafson.twitter
 
 currentDate=`date`
-echo "${PATH}"
 echo "Building at ${currentDate}"
 
 # build latest
