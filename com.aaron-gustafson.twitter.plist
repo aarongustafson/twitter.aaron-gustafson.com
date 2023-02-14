@@ -13,11 +13,53 @@
 		<string>/Library/Application Support/com.aaron-gustafson.twitter/cron.sh</string>
 	</array>
 
-	<key>StartInterval</key>
-	<integer>3600</integer>
-
 	<key>RunAtLoad</key>
-	<true/>
+	<false/>
+
+	<key>StartCalendarInterval</key>
+	<!--  Weekdays are 1 - 5; Sunday is 0 and 7   -->
+	<array>
+			<dict>
+					<key>Weekday</key>
+					<integer>1</integer>
+					<key>Hour</key>
+					<integer>2</integer>
+					<key>Minute</key>
+					<integer>10</integer>
+			</dict>
+			<dict>
+					<key>Weekday</key>
+					<integer>2</integer>
+					<key>Hour</key>
+					<integer>2</integer>
+					<key>Minute</key>
+					<integer>10</integer>
+			</dict>
+			<dict>
+					<key>Weekday</key>
+					<integer>3</integer>
+					<key>Hour</key>
+					<integer>2</integer>
+					<key>Minute</key>
+					<integer>10</integer>
+			</dict>
+			<dict>
+					<key>Weekday</key>
+					<integer>4</integer>
+					<key>Hour</key>
+					<integer>2</integer>
+					<key>Minute</key>
+					<integer>10</integer>
+			</dict>
+			<dict>
+					<key>Weekday</key>
+					<integer>5</integer>
+					<key>Hour</key>
+					<integer>2</integer>
+					<key>Minute</key>
+					<integer>10</integer>
+			</dict>
+	</array>
 
 	<key>StandardErrorPath</key>
 	<string>/tmp/BackupFromTwitter.err</string>
