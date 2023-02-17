@@ -16,7 +16,7 @@ currentDate=`date`
 echo "Building at ${currentDate}"
 
 # build latest
-cd /Users/aarongu/Documents/GitHub/twitter.aaron-gustafson.com/;
+cd /Users/aarongu/GitHub/twitter.aaron-gustafson.com/;
 echo "Fetching new data";
 /usr/local/bin/npm run fetch-new-data;
 echo "Done fetching, updating in Git";
