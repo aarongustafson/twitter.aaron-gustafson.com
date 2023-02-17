@@ -5,14 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>AaronGustafson’s Twitter Archive—№ 18,992</title>
 		<meta name="description" content="@eleven_ty @jekyllrb I’ve tried returning the result of both markdownit’s render() and renderInline() methods as well as returning that inside of a backtick-ed string (e.g., `${html}`). I’ve ruled out collisions with other filters. What am I missing?" />
-		<script>
-		if("classList" in document.documentElement) {
-			document.documentElement.classList.add("has-js");
-		}
-		</script>
 
-		
-
+		<link rel="profile" href="https://microformats.org/profile/hatom">
 		<link rel="stylesheet" href="/assets/style.css">
 		<script src="/assets/script.js" type="module"></script>
 		<script src="/assets/is-land.js" type="module"></script>
@@ -33,7 +27,7 @@
 			<ol class="tweets tweets-thread h-feed hfeed" data-pagefind-body>
 			<ol class="tweets-replies h-feed hfeed"><li id="1155668463475732481" class="tweet h-entry tweet-previous" data-pagefind-index-attrs="id">
 		
-			<div class="tweet-text e-content">I think I’m missing something: my <a href="https://twitter.11ty.dev/" class="tweet-username h-card"><b class="p-nickname">eleven_ty</b></a> filter (which aims to be a port of <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card"><b class="p-nickname">jekyllrb</b></a>’s markdownify filter) is returning markup that is text (with encoded &lt; and &gt;) rather than actual HTML. Thoughts?</div>
+			<div class="tweet-text e-content">I think I’m missing something: my <a href="https://twitter.11ty.dev/" class="tweet-username h-card">@<span class="p-nickname">eleven_ty</span></a> filter (which aims to be a port of <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card">@<span class="p-nickname">jekyllrb</span></a>’s markdownify filter) is returning markup that is text (with encoded &lt; and &gt;) rather than actual HTML. Thoughts?</div>
 			<span class="tweet-metadata">
 				<a href="/1155668463475732481/" class="tag tag-naked">Permalink</a>
 				<a href="https://twitter.com/AaronGustafson/status/1155668463475732481" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
@@ -47,7 +41,7 @@
 		</li></ol>
 			<li id="1155668950707068928" class="tweet h-entry" data-pagefind-index-attrs="id">
 		<a href="/1155668463475732481/" class="tweet-pretext u-in-reply-to">…in reply to @AaronGustafson</a>
-			<div class="tweet-text e-content"><a href="https://twitter.11ty.dev/" class="tweet-username h-card"><b class="p-nickname">eleven_ty</b></a> <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card"><b class="p-nickname">jekyllrb</b></a> I’ve tried returning the result of both markdownit’s render() and renderInline() methods as well as returning that inside of a backtick-ed string (e.g., <code>${html}</code>). I’ve ruled out collisions with other filters. What am I missing?</div>
+			<div class="tweet-text e-content" data-pagefind-body><a href="https://twitter.11ty.dev/" class="tweet-username h-card">@<span class="p-nickname">eleven_ty</span></a> <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card">@<span class="p-nickname">jekyllrb</span></a> I’ve tried returning the result of both markdownit’s render() and renderInline() methods as well as returning that inside of a backtick-ed string (e.g., <code>${html}</code>). I’ve ruled out collisions with other filters. What am I missing?</div>
 			<span class="tweet-metadata">
 				
 				<a href="https://twitter.com/AaronGustafson/status/1155668950707068928" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
@@ -60,7 +54,7 @@
 		</li>
 			<ol class="tweets-replies h-feed hfeed"><li id="1155670725119922178" class="tweet h-entry tweet-next" data-pagefind-index-attrs="id">
 		<a href="/1155668950707068928/" class="tweet-pretext u-in-reply-to">…in reply to @AaronGustafson</a>
-			<div class="tweet-text e-content"><a href="https://twitter.11ty.dev/" class="tweet-username h-card"><b class="p-nickname">eleven_ty</b></a> <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card"><b class="p-nickname">jekyllrb</b></a> Just figured it out: Nunjucks was the source of the encoding. Needed to add the "safe" filter to the output.</div>
+			<div class="tweet-text e-content"><a href="https://twitter.11ty.dev/" class="tweet-username h-card">@<span class="p-nickname">eleven_ty</span></a> <a href="https://twitter.com/jekyllrb/" class="tweet-username h-card">@<span class="p-nickname">jekyllrb</span></a> Just figured it out: Nunjucks was the source of the encoding. Needed to add the "safe" filter to the output.</div>
 			<span class="tweet-metadata">
 				<a href="/1155670725119922178/" class="tag tag-naked">Permalink</a>
 				<a href="https://twitter.com/AaronGustafson/status/1155670725119922178" class="tag tag-icon u-url" data-pagefind-index-attrs="href"><span class="sr-only">On twitter.com </span><img src="https://v1.indieweb-avatar.11ty.dev/https%3A%2F%2Ftwitter.com%2F/" alt="Twitter logo" width="27" height="27"></a>
