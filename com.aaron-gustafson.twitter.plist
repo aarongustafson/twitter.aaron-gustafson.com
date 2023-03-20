@@ -10,7 +10,7 @@
 
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Library/Application Support/com.aaron-gustafson.twitter/cron.sh</string>
+		<string>su - aarongu -c "/Library/Application\ Support/com.aaron-gustafson.twitter/cron.sh"</string>
 	</array>
 
 	<key>RunAtLoad</key>
